@@ -200,30 +200,12 @@ body{
 }
 .about__img{
   padding: 100px;
-  position: relative;
-  display: inline-block;
-  resize: both;
-  overflow: auto;
-  height: auto;
 
-}
-
-.about__info-p1{
-  position: relative;
-  display: inline-block;
-  resize: both;
-  overflow: auto;
-  height: auto;
 }
 
 .about__img img{
   width: 300px;
   height: 300px;
-  position: relative;
-  display: inline-block;
-  resize: both;
-  overflow: auto;
-  height: auto;
 }
 
 .toggle{
@@ -470,22 +452,22 @@ input[type=submit]:hover {
 .copyright{
   font-size:11px;
 }
-@media screen and (max-width: 320px) {
-  /* comes into effect for screens less than or equal to 320 pixels */
-  #somethingorother {
-    width: 120px ;
+
+@media screen and (max-width: 767px) {
+  html {
+    /* Reducing base font size will reduce all rem sizes */
+    font-size: 13px;
   }
-}
-@media screen and (min-width: 321px) and (max-width: 480px) {
-  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
-  #somethingorother {
-    width: 320px ;
+
+  /* You can reduce font sizes manually as well */
+  h1 {
+      font-size: 1.2rem;
   }
-}
-@media screen and (min-width: 481px) {
-  /* comes into effect for screens larger than or equal to 481 pixels */
-  #somethingorother {
-    width: 480px ;
+  h2 {
+      font-size: 1.0rem;
+  }
+  p {
+    font-size: 2vh;
   }
 }
 
@@ -501,23 +483,17 @@ input[type=submit]:hover {
     width: 100%;
   }
   .about{
-    width: auto;
+    width: 100%;
     height: auto;
-
+    font-size: 1vh;
   }
   .about__img{
-    width:auto;
-    height: auto;
+    width: 100%;
     display: flex;
-    resize: both;
     align-items:stretch;
     justify-content: center;
     text-align: center;
     padding: 15px 0;
-  }
-  .about__info-p1{
-    font-size: 2vh;
-    resize: both;
   }
   .navbar__right{
     flex-direction: column;
@@ -531,7 +507,9 @@ input[type=submit]:hover {
     padding: 15px 0;
 
   }
-
+.about__info-p1{
+font-size: 2vh; 
+}
 .tools{
   font-size: 2vh;
 }
@@ -558,7 +536,32 @@ input[type=submit]:hover {
   display: flex;
 }
 
+@media (min-width: 50em) {
+  html {
+    font-size: 2vw;
+  }
+  .animetext{
+    font-size: 2em; 
+  }
+}
 
+@media screen and (min-width: 75em) {
+  html {
+    font-size: 1.5em;
+  }
+  .about__info-p1 {
+    font-size: 2vw;
+  }
+  
+}
+@media screen and (min-width: 601px) {
+  .about__info-p1{
+    font-size: 2vw;
+  }
+  .tools{
+    font-size: 2vw;
+  }
+}
 
 
 }
