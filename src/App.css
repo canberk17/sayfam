@@ -14,11 +14,12 @@ body{
 .animetext{
   animation: type 7s steps(22);
   animation-iteration-count: infinite;
-  overflow: hidden;
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   font-family: consolas;
   border-right:4px solid #112d4e ;
-  width: 75ch;
+  width: auto;
   
 
 }
@@ -516,5 +517,23 @@ input[type=submit]:hover {
 .toggle{
   display: flex;
 }
+
+@media (min-width: 50em) {
+  html {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (min-width: 75em) {
+  html {
+    font-size: 1.5em;
+  }
+}
+@media screen and (min-width: 601px) {
+  .container {
+    font-size: 80px;
+  }
+}
+
 
 }
