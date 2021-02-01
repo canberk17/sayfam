@@ -516,7 +516,7 @@ input[type=submit]:hover {
   font-size: 2vh;
 }
 .about__info-p1{
-  display: block;
+  width: fit-content;
   overflow: auto;
   }
 .tools{
