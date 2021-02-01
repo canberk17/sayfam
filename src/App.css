@@ -482,6 +482,11 @@ input[type=submit]:hover {
   .col-6{
     width: 100%;
   }
+  .about{
+    width: 100%;
+    height: auto;
+    font-size: 2vh;
+  }
   .about__img{
     width: 100%;
     display: flex;
