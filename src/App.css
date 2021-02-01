@@ -508,11 +508,10 @@ input[type=submit]:hover {
 
   }
 .about__info-p1{
-  line-height: 17px;
   font-size: 2vh; 
 }
 .tools{
-  font-size: 2vw;
+  font-size: 2vh;
 }
 .technical{
   font-size: 2vh; 
