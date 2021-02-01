@@ -480,10 +480,6 @@ input[type=submit]:hover {
   }
   .about{
     width: 100%;
-    position: relative;
-    display: inline-block;
-    resize: both;
-    overflow: auto;
     height: auto;
    
   }
@@ -525,13 +521,13 @@ input[type=submit]:hover {
 .aboutp{
   font-size: 2vh;
 }
-/* .about__info-p1{
+.about__info-p1{
   margin-top: -20px;
   padding-left: 80%;
   position: relative;
   display: inline-block;
   overflow: auto;
-  } */
+  }
 .tools{
   font-size: 2vh;
 }
