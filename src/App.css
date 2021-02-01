@@ -485,6 +485,14 @@ input[type=submit]:hover {
     text-align: center;
   }
   
+  .me{
+    width:100%;
+    position: relative;
+    display: inline-block;
+    resize: both;
+    overflow: auto;
+    height: auto;
+  }
   .about__img img{
     width:100%;
     position: relative;
@@ -512,6 +520,7 @@ input[type=submit]:hover {
   font-size: 2vh;
 }
 .about__info-p1{
+  padding-left: 40%;
   overflow: auto;
   }
 .tools{
