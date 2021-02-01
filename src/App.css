@@ -488,7 +488,7 @@ input[type=submit]:hover {
   .me{
     width:100%;
     position: relative;
-    display: none;
+    display: inline-block;
     resize: both;
     overflow: auto;
     height: auto;
@@ -496,7 +496,7 @@ input[type=submit]:hover {
   .about__img img{
     width:100%;
     position: relative;
-    display: none;
+    display: inline-block;
     resize: both;
     overflow: auto;
     height: auto;
@@ -520,8 +520,7 @@ input[type=submit]:hover {
   font-size: 2vh;
 }
 .about__info-p1{
-  padding-left: 100%;
-  position: relative;
+  padding-left: 800%;
   overflow: auto;
   }
 .tools{
