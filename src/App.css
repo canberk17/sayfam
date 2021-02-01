@@ -199,12 +199,9 @@ body{
     -webkit-transition: border-radius 0.5s, opacity 0.5s;
     transition: border-radius 0.5s, opacity 0.5s;
 }
-.about__img{
-  padding: 100px;
-
-}
 
 .about__img img{
+
   width: 300px;
   height: 300px;
 }
@@ -487,7 +484,8 @@ input[type=submit]:hover {
     font-size: 1vh;
     text-align: center;
   }
-  .about__img{
+  
+  .about__img img{
     width: 100%;
     position: relative;
     display: inline-block;
@@ -513,7 +511,7 @@ input[type=submit]:hover {
   }
 
 .aboutp{
-  font-size: 3px;
+  font-size: 7px;
 }
 .about__info-p1{
   vertical-align: top;
