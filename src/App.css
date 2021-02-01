@@ -484,8 +484,7 @@ input[type=submit]:hover {
   .about{
     width: 100%;
     height: auto;
-    font-size: 2vh;
-    text-align: center;
+    font-size: 1vh;
   }
   .about__img{
     width: 100%;
@@ -496,7 +495,7 @@ input[type=submit]:hover {
     padding: 15px 0;
   }
   .about__info-p1{
-    font-size: 2vh;
+    display: block;
     overflow: auto;
   }
   .navbar__right{
