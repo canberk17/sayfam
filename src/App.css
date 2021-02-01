@@ -497,7 +497,7 @@ input[type=submit]:hover {
     padding: 15px 0;
   }
   .about__info-p1{
-    text-align: center;
+    font-display:strecth ;
     overflow: auto;
   }
   .navbar__right{
