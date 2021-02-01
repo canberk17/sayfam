@@ -487,8 +487,9 @@ input[type=submit]:hover {
   
   .me{
     width:100%;
-    position: top;
-    display: flex;
+    position: relative;
+    display: inline-block;
+    resize: both;
     overflow: auto;
     height: auto;
   }
