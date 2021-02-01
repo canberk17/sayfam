@@ -185,6 +185,7 @@ body{
 
 .about__info-p1{
   color:#112d4e;
+  
 }
 .me{
   position: relative;
@@ -510,9 +511,7 @@ input[type=submit]:hover {
     padding: 15px 0;
 
   }
-.about__info-p1{
-font-size: 2vh; 
-}
+
 .tools{
   font-size: 2vh;
 }
@@ -539,32 +538,6 @@ font-size: 2vh;
   display: flex;
 }
 
-@media (min-width: 50em) {
-  html {
-    font-size: 2vw;
-  }
-  .animetext{
-    font-size: 2em; 
-  }
-}
-
-@media screen and (min-width: 75em) {
-  html {
-    font-size: 1.5em;
-  }
-  .about__info-p1 {
-    font-size: 2vw;
-  }
-  
-}
-@media screen and (min-width: 601px) {
-  .about__info-p1{
-    font-size: 2vw;
-  }
-  .tools{
-    font-size: 2vw;
-  }
-}
 
 
 }
