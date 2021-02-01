@@ -505,6 +505,9 @@ input[type=submit]:hover {
     height: auto;
  
   }
+  .mainHeader{
+
+  }
 
   .navbar__right{
     flex-direction: column;
@@ -523,10 +526,10 @@ input[type=submit]:hover {
   font-size: 2vh;
 }
 .about__info-p1{
+  margin-top: -20px;
   padding-left: 80%;
   position: relative;
   display: inline-block;
-  font-size: 4vh;
   overflow: auto;
   }
 .tools{
