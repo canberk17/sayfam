@@ -28,7 +28,7 @@ const About = () => {
                         
                     </div>
                     <div className="about__info-p1">
-                        <p>I graduated from the University of British Columbia in 2020. As a self-starter I taught myself various programming languages and created projects far beyond the classes I have taken. I am passionate about blokchain and artificial intelligence. I am always learning new concepts through research, workshops, meetups, and online courses; and developing related projects. I landed internships at established companies such as KPMG and Ernst & Young.</p>
+                        <p>I graduated from the University of British Columbia in 2020. As a self-starter I taught myself various programming languages and created projects far beyond the classes I have taken. I am passionate about blockchain and artificial intelligence. I am always learning new concepts through research, workshops, meetups, and online courses; and developing related projects. I landed internships at established companies such as KPMG and Ernst & Young.</p>
 
                         <br/>
                         <p>Aside from academia and programming, I am passionate about sports,cooking and self-improvement. I am a certified yoga instructor and a blue belt jiu jitsu athlete.</p>
