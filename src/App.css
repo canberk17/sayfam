@@ -453,7 +453,7 @@ input[type=submit]:hover {
   font-size:11px;
 }
 
-@media screen and (max-width: 767px) {
+@media(max-width: 767px) {
   html {
     /* Reducing base font size will reduce all rem sizes */
     font-size: 13px;
@@ -466,8 +466,11 @@ input[type=submit]:hover {
   h2 {
       font-size: 1.0rem;
   }
-  p {
+  .about__info-p1 {
     font-size: 2vh;
+    resize: both;
+    overflow: auto;
+    height: auto;
   }
 }
 
