@@ -488,7 +488,8 @@ input[type=submit]:hover {
 
   }
   .about__img{
-    width: 100%;
+    width:auto;
+    height: auto;
     display: flex;
     align-items:stretch;
     justify-content: center;
