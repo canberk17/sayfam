@@ -510,11 +510,10 @@ input[type=submit]:hover {
   }
 
 .aboutp{
-  font-size: 2vh;
+  font-size: 12vh;
 }
 .about__info-p1{
-    width: auto;
-    overflow: auto;
+  overflow: auto;
   }
 .tools{
   font-size: 2vh;
