@@ -513,10 +513,13 @@ input[type=submit]:hover {
   }
 
 .aboutp{
-  font-size: 1px;
+  font-size: 3px;
 }
 .about__info-p1{
-  width: 100%;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
   overflow: auto;
   }
 .tools{
