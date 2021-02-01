@@ -493,6 +493,7 @@ input[type=submit]:hover {
     align-items:stretch;
     justify-content: center;
     text-align: center;
+    resize: both;
     padding: 15px 0;
   }
 
