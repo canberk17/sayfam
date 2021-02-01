@@ -35,7 +35,7 @@ body{
 }
 
 .header{
-  max-width: 100%;
+  max-width: auto;
   height: auto;
   background: url("./images/bg.jpg");
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body{
 
 .navbar{
   width: 100%;
-  height: 50px;
+  height: auto;
   position: fixed;
   top: 0;
   background:transparent;
@@ -221,7 +221,7 @@ body{
 
 }
 .projects{
-  max-width: 100%;
+  max-width: auto;
   height: auto;
   overflow: hidden;
   margin:auto;
@@ -306,7 +306,7 @@ body{
 }
 
 .skill{
-  max-width: 100%;
+  max-width: auto;
   height: auto;
   background:#dbe2ef;
   padding: 10px 0;
