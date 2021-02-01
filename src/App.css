@@ -477,7 +477,6 @@ input[type=submit]:hover {
   }
   .col-6{
     width: 100%;
-    height: auto;
   }
   .about{
     width: 100%;
@@ -520,7 +519,8 @@ input[type=submit]:hover {
   font-size: 2vh;
 }
 .about__info-p1{
-  padding-left: 800%;
+  padding-left: 50%;
+  position: relative;
   overflow: auto;
   }
 .tools{
