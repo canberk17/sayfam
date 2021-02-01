@@ -488,14 +488,13 @@ input[type=submit]:hover {
   .me{
     width:100%;
     position: top;
-    display: inline-block;
-    resize: both;
+    display: flex;
     overflow: auto;
     height: auto;
   }
   .about__img img{
     width:100%;
-    position: top;
+    position: relative;
     display: inline-block;
     resize: both;
     overflow: auto;
