@@ -489,11 +489,13 @@ input[type=submit]:hover {
   }
   .about__img{
     width: 100%;
-    display: flex;
-    align-items:stretch;
-    justify-content: center;
-    text-align: center;
+    position: relative;
+    display: inline-block;
     resize: both;
+    overflow: auto;
+    height: auto;
+    justify-content: center;
+     height: auto;
     padding: 15px 0;
   }
 
