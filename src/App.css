@@ -467,12 +467,7 @@ input[type=submit]:hover {
   h2 {
       font-size: 1.0rem;
   }
-  .about__info-p1 {
-    font-size: 2px;
-    resize: both;
-    overflow: auto;
-    height: auto;
-  }
+  
 }
 
 
@@ -490,14 +485,16 @@ input[type=submit]:hover {
     width: 100%;
     height: auto;
     font-size: 1vh;
+    display: inline-block;
+    text-align: center;
   }
   .about__img{
     width: 100%;
-    display: flex;
-    align-items:stretch;
-    justify-content: center;
-    text-align: center;
-    padding: 15px 0;
+    height: auto;
+  }
+  .about__info-p1{
+    display: block;
+    overflow: auto;
   }
   .navbar__right{
     flex-direction: column;
