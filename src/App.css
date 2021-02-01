@@ -486,15 +486,13 @@ input[type=submit]:hover {
   }
   
   .about__img img{
-    width: 100%;
+    width:100%;
     position: relative;
     display: inline-block;
     resize: both;
     overflow: auto;
     height: auto;
-    justify-content: center;
-     height: auto;
-    padding: 15px 0;
+ 
   }
 
   .navbar__right{
@@ -511,13 +509,9 @@ input[type=submit]:hover {
   }
 
 .aboutp{
-  font-size: 7px;
+  font-size: 2vh;
 }
 .about__info-p1{
-  vertical-align: top;
-  display: inline-block;
-  text-align: center;
-  width: 120px;
   overflow: auto;
   }
 .tools{
