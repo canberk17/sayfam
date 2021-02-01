@@ -49,6 +49,7 @@ body{
   position: fixed;
   top: 0;
   background:transparent;
+  background-size: 100% 100%;
   z-index: 1;
 }
 
@@ -80,6 +81,7 @@ body{
 }
 .container{
   width: 1200px;
+  height: auto;
   margin: 0 auto;
   scroll-behavior: smooth;
 }
@@ -172,6 +174,7 @@ body{
   max-width: 100%;
   height: auto;
   background:#dbe2ef;
+  background-size: 100% 100%;
   padding: 100px 0;
 }
 .about_h1{
@@ -227,6 +230,7 @@ body{
   margin:auto;
   padding: 20px 0px;
   background:#112d4e;
+  background-size: 100% 100%;
   
 }
 
@@ -309,6 +313,7 @@ body{
   max-width: auto;
   height: auto;
   background:#dbe2ef;
+  background-size: 100% 100%;
   padding: 10px 0;
 }
 
