@@ -508,15 +508,16 @@ input[type=submit]:hover {
   .about__img{
     width:auto;
     height: auto;
+    display: flex;
+    resize: both;
     align-items:stretch;
     justify-content: center;
     text-align: center;
-    position: relative;
-    display: inline-block;
-    resize: both;
-    overflow: auto;
-    height: auto;
     padding: 15px 0;
+  }
+  .about__info-p1{
+    font-size: 2vh;
+    resize: both;
   }
   .navbar__right{
     flex-direction: column;
