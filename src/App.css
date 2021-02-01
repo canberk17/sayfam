@@ -495,11 +495,7 @@ input[type=submit]:hover {
     text-align: center;
     padding: 15px 0;
   }
-  .about__info-p1{
-    text-align:end;
-    font-size: 2px;
-    overflow: auto;
-  }
+
   .navbar__right{
     flex-direction: column;
     width: 100%;
@@ -513,6 +509,13 @@ input[type=submit]:hover {
 
   }
 
+.aboutp{
+  font-size: 2vh;
+}
+.about__info-p1{
+    width: auto;
+    overflow: auto;
+  }
 .tools{
   font-size: 2vh;
 }
