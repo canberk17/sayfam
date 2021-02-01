@@ -476,13 +476,18 @@ input[type=submit]:hover {
     padding: 30px 0;
   }
   .col-6{
-    width: 100%;
+
+    width:100%;
+    position: relative;
+    display: inline-block;
+    resize: both;
+    overflow: auto;
+    height: auto;
   }
   .about{
     width: 100%;
     height: auto;
-    font-size: 1vh;
-    text-align: center;
+   
   }
   
   .me{
