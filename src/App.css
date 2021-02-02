@@ -12,8 +12,8 @@ body{
 }
 
 .animetext{
-  animation: type 3s steps(2);
-  animation-iteration-count: infinite;
+  animation: type 7s linear infinite ;
+  /* animation-iteration-count: infinite; */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -23,7 +23,14 @@ body{
   
 
 }
-
+@keyframes animate{
+  0%,10%,100%{
+    width: 0%;
+  }
+  70%,90%,{
+    width:100%;
+  }
+}
 
 @keyframes type{
   0%{
