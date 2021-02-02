@@ -501,9 +501,6 @@ input[type=submit]:hover {
     height: auto;
  
   }
-  .mainHeader{
-
-  }
 
   .navbar__right{
     flex-direction: column;
@@ -522,10 +519,11 @@ input[type=submit]:hover {
   font-size: 2vh;
 }
 .about__info-p1{
-  margin-top: -20px;
-  padding-left: 80%;
-  position: relative;
-  display: inline-block;
+  text-align: center; /* Right-align text */
+  padding-top: .1px; /* Add top padding */
+  padding-left: .1px;
+  padding-right: .1px;
+  padding-bottom: .1px;
   overflow: auto;
   }
 .tools{
