@@ -481,6 +481,15 @@ input[type=submit]:hover {
   .about{
     width: 100%;
     height: auto;
+    text-align: center; /* Right-align text */
+    padding-top: .1px; /* Add top padding */
+    padding-left: .1px;
+    padding-right: .1px;
+    padding-bottom: .1px;
+    resize: both;
+    position: flex;
+    display: inline-block;
+    overflow: auto;
    
   }
   
@@ -524,6 +533,9 @@ input[type=submit]:hover {
   padding-left: .1px;
   padding-right: .1px;
   padding-bottom: .1px;
+  resize: both;
+  position: flex;
+  display: inline-block;
   overflow: auto;
   }
 .tools{
