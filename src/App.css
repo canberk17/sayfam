@@ -12,8 +12,8 @@ body{
 }
 
 .animetext{
-  animation: type 7s linear infinite ;
-  /* animation-iteration-count: infinite; */
+  animation: type 8s linear ;
+  animation-iteration-count: infinite;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
