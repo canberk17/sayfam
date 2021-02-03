@@ -4,7 +4,7 @@ import{FiMail} from 'react-icons/fi';
 
 
 function Banner() {
-    const[state]=React.useState({title:'I am Canberk Kandemir',text:'A tech savvy developer & entrepreneur who is raised in Istanbul and based in Vancouver'});
+    const[state]=React.useState({title:'I am Canberk Kandemir',text:'A tech savvy developer & entrepreneur. Istanbul raised, Vancouver based.'});
     return (
         <header className='header' >
             <div className="container">

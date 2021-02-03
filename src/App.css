@@ -12,7 +12,7 @@ body{
 }
 
 .animetext{
-  animation: type 11s linear ;
+  animation: type 8s linear ;
   animation-iteration-count: infinite;
   white-space: nowrap;
   overflow: hidden;
