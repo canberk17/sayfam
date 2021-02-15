@@ -195,17 +195,37 @@ body{
   
 }
 .me{
-  position: relative;
-   width: 100%;
+    width: 100%;
     margin: 0;
     overflow: hidden;
     background-color: #f9f7f7;
-    padding: 0%;
+    padding: 1%;
     border-radius: 50%;
     opacity: 0.7;
     -webkit-transition: border-radius 0.5s, opacity 0.5s;
     transition: border-radius 0.5s, opacity 0.5s;
 }
+
+.me:hover {
+  opacity: 1;
+  border-radius: 30%;
+}
+.about__info-p1 {
+  padding-top: 100px;
+  padding-right: 10%;
+  padding-left: 10%;
+  font-size: 100%;
+}
+.aboutp{
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
 
 .about__img img{
 
@@ -234,7 +254,9 @@ body{
   height: auto;
   overflow: hidden;
   margin:auto;
-  padding: 20px 0px;
+  padding: 20px 0px 20px 12px;
+  padding-left: 8ch;
+  padding-right: 5px;
   background:#112d4e;
   background-size: 100% 100%;
   
@@ -473,9 +495,29 @@ input[type=submit]:hover {
   }
   
 }
+@media (max-width: 32em){
+  .header__section{
+    text-align: left;
+    font-size: 10px;
+    
+}
+
+}
+
+@media (max-width: 480px){
+.about__info-p1 {
+    padding-top: 0;
+    padding-right: 5%;
+    padding-left: 5%;
+}}
 
 
 @media(max-width:765px){
+  .header__section{
+    text-align: left;
+    font-size: 10px;
+    
+}
   .container{
     width: 100%;
     height: auto;
@@ -500,23 +542,6 @@ input[type=submit]:hover {
    
   }
   
-  .me{
-    width:100%;
-    position: flex;
-    display: inline-block;
-    resize: both;
-    overflow: auto;
-    height: auto;
-  }
-  .about__img img{
-    width:100%;
-    position: flex;
-    display: inline-block;
-    resize: both;
-    overflow: auto;
-    height: auto;
- 
-  }
 
   .navbar__right{
     flex-direction: column;

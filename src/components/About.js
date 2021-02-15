@@ -12,12 +12,14 @@ const About = () => {
                 <div className="common">
                     <h1 className="mainHeader">{header.subHeader}</h1>
                     <p className="mainContent">{header.text}</p>
-                    <div className="commonBorder"></div>
+                    
                 </div>
                 <div className="row h-650 alignCenter">
                     <div className="col-6">
                     <div className="about__img">
-                     <img src="https://i.ibb.co/8cCHS5D/mc-1.jpg" alt="br" border="0" class="me"/>
+                     <img src="https://i.ibb.co/jMqfZ5H/br.jpg" alt="br" border="0" class="me"/>
+
+                   
                      
                      
                 </div>
